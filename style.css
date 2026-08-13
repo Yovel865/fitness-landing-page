@@ -1,6 +1,3 @@
-/* =========================================
-   משתני צבע - מצב בהיר (ירוק ועץ טבעי)
-========================================= */
 :root {
     --bg-color: #f4f7f5;
     --card-bg: #ffffff;
@@ -12,9 +9,6 @@
     --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
-/* =========================================
-   The Checkbox Hack - מצב כהה
-========================================= */
 .theme-switch-checkbox {
     display: none;
 }
@@ -55,9 +49,6 @@ body {
     transition: all 0.4s ease;
 }
 
-/* =========================================
-   כפתור החלפת המצב
-========================================= */
 .top-bar {
     width: 100%;
     max-width: 650px;
@@ -88,9 +79,6 @@ body {
 .theme-switch-checkbox:checked ~ .page-wrapper .light-icon { display: none; }
 .theme-switch-checkbox:checked ~ .page-wrapper .dark-icon { display: inline; }
 
-/* =========================================
-   הכרטיס המרכזי
-========================================= */
 .card {
     background-color: var(--card-bg);
     width: 100%;
@@ -102,9 +90,6 @@ body {
     transition: all 0.4s ease;
 }
 
-/* =========================================
-   Hero Section - תמונת הסקוואט
-========================================= */
 .hero-section {
     position: relative;
     width: 100%;
@@ -150,9 +135,6 @@ body {
     text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
 }
 
-/* =========================================
-   פיד התוכן
-========================================= */
 .feed {
     display: flex;
     flex-direction: column;
@@ -172,7 +154,6 @@ body {
     display: inline-block;
 }
 
-/* קו תחתון מעוצב לכותרת */
 .feed-item h3::after {
     content: '';
     position: absolute;
@@ -205,9 +186,6 @@ body {
     transform: scale(1.02);
 }
 
-/* =========================================
-   יצירת קשר ופוטר
-========================================= */
 .divider {
     border: 0;
     height: 1px;
@@ -260,9 +238,6 @@ body {
     box-shadow: 0 6px 15px rgba(72, 187, 120, 0.3);
 }
 
-/* =========================================
-   רספונסיביות למובייל
-========================================= */
 @media (max-width: 480px) {
     .hero-section {
         height: 300px;
@@ -279,4 +254,77 @@ body {
     .feed-image {
         height: 220px;
     }
+}
+.css-carousel-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.slider-radio {
+    display: none;
+}
+
+.carousel-slides {
+    display: flex;
+    width: 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+    position: relative;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center ;
+    display: block;
+}
+
+#slide-1:checked ~ .carousel-slides {
+    transform: translateX(0);
+}
+
+#slide-2:checked ~ .carousel-slides {
+    transform: translateX(100%);
+}
+
+#slide-3:checked ~ .carousel-slides {
+    transform: translateX(200%);
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+    user-select: none;
+}
+
+    .arrow:hover {
+        background-color: var(--accent-color);
+    }
+
+.right-arrow {
+    right: 15px;
+}
+
+.left-arrow {
+    left: 15px;
 }
