@@ -10,12 +10,25 @@
 <body>
     <input type="checkbox" id="theme-switch" class="theme-switch-checkbox">
     <div class="page-wrapper">
-        <header class="top-bar">
-            <label for="theme-switch" class="theme-switch-label">
-                <span class="icon light-icon">☀️ מצב כהה</span>
-                <span class="icon dark-icon">🌙 מצב בהיר</span>
-            </label>
-        </header>
+       <header class="top-bar">
+    <div class="menu-container">
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+        <label for="menu-toggle" class="menu-button">☰</label>
+        
+        <nav class="main-menu">
+            <a href="#why-us" class="menu-link">אז למה אנחנו?</a>
+            <a href="#workouts" class="menu-link">האימונים שלנו</a>
+            <a href="#studio" class="menu-link">חלל האימונים</a>
+            <a href="#nutrition" class="menu-link">ליווי תזונתי</a>
+            <a href="#schedule" class="menu-link">מערכת שעות</a>
+        </nav>
+    </div>
+    <label for="theme-switch" class="theme-switch-label">
+        <span class="icon light-icon">☀️ מצב כהה</span>
+        <span class="icon dark-icon">🌙 מצב בהיר</span>
+    </label>
+</header> 
+        
 
         <main class="card">
             <div class="hero-section">
@@ -27,7 +40,7 @@
                 </div>
             </div>
 
-            <section class="feed-item">
+            <section id="why-us" class="feed-item">
                 <h3>האני מאמין שלי - So Why?</h3>
                 <p>
                     הגוף שלנו נועד לזוז, להרים ולהתחזק. אני מאמינה בכל דבר שיגרום לך להניע את הגוף כדי להרגיש טוב יותר, לזוז טוב יותר ולהיראות טוב יותר.
@@ -35,7 +48,7 @@
                     וכן - על הדרך משיגים גם גוף חטוב וחזק, אבל זה רק הבונוס.
                 </p>
             </section>
-            <section class="feed-item">
+            <section id="workouts" class="feed-item">
                 <h3>אימונים ללא פשרות</h3>
                 <p>
                     אימוני כוח ופונקציונלי המשלבים עבודה על שרירי הליבה, עבודה על קבוצות שרירים ממספר כיוונים שונים כדי ליצור גירוי אידיאלי לשריר, תוך שימת דגש על טכניקה ואיכות הביצועים. בשיעורים שלי נלמד לעבוד נכון, לשבור שיאים אישיים ולדחוף את הגבולות בכל אימון מחדש
@@ -65,16 +78,21 @@
             </section>
 
             <div class="feed">
-                <section class="feed-item">
+                <section id="studio" class="feed-item">
                     <h3>סביבת אימון פרימיום</h3>
                     <p>קליניקת האימונים מציעה מרחב אינטימי, מעוצב ומאובזר ברמה הגבוהה ביותר. עם נוף פתוח ואווירה יוקרתית, זה המקום המושלם להתנתק מרעשי הרקע ולהתרכז נטו בלדחוף את עצמך קדימה.</p>
                     <img src="thestudio.jpg" alt="סטודיו לאימונים אישיים" class="feed-image">
                 </section>
 
-                <section class="feed-item">
+                <section id="nutrition" class="feed-item">
                     <h3>תזונה והתאוששות</h3>
                     <p>שגרת אימונים נכונה דורש דלק איכותי. אוכל הוא לא חלק מהחיים, זה החיים עצמם. כחלק מהמעטפת, אנו מציעים ליווי תזונתי בהתאם לצרכים ולמטרות שלך - כדי לוודא שאנחנו מאפשרים לגוף להתאושש היטב, לבנות מסת שריר ועדיין לשמור על מערכת יחסים בריאה עם אוכל.</p>
                     <img src="Veggie-Bowl.jpeg" alt="קערת ירקות ותזונה בריאה" class="feed-image">
+                </section>
+
+                <section id="schedule" class="feed-item">
+                    <h3>מערכת שעות</h3>
+                    <img src="schedule.jpeg" alt="מגוון אימונים" class="feed-image">
                 </section>
             </div>
 
