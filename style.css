@@ -24,14 +24,11 @@
     --shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
-/* =========================================
-   עיצוב בסיסי
-========================================= */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family:  'Heebo',sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana ,sans-serif;
 }
 
 body {
