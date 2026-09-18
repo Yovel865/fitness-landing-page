@@ -1,114 +1,155 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-    <link rel="icon" type="image/png" href="favicon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YFitness</title>
+    <title>YFitness | יובל הולצמן - מאמנת כוח ופונקציונלי</title>
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <input type="checkbox" id="theme-switch" class="theme-switch-checkbox">
+
     <div class="page-wrapper">
-       <header class="top-bar">
-    <div class="menu-container">
-        <input type="checkbox" id="menu-toggle" class="menu-checkbox">
-        <label for="menu-toggle" class="menu-button">☰</label>
-        
-        <nav class="main-menu">
-            <a href="#why-us" class="menu-link">אז למה אנחנו?</a>
-            <a href="#workouts" class="menu-link">האימונים שלנו</a>
-            <a href="#studio" class="menu-link">חלל האימונים</a>
-            <a href="#nutrition" class="menu-link">ליווי תזונתי</a>
-            <a href="#schedule" class="menu-link">מערכת שעות</a>
-            <a href="#contact" class="menu-link">צור קשר</a>
-        </nav>
-    </div>
-    <label for="theme-switch" class="theme-switch-label">
-        <span class="icon light-icon">☀️ מצב כהה</span>
-        <span class="icon dark-icon">🌙 מצב בהיר</span>
-    </label>
-</header> 
-        
+        <header class="top-bar">
+            <div class="menu-container">
+                <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+                <label for="menu-toggle" class="menu-button" aria-label="פתיחת תפריט">☰</label>
+
+                <nav class="main-menu">
+                    <a href="#about" class="menu-link">קצת עליי</a>
+                    <a href="#why-us" class="menu-link">אז למה אנחנו?</a>
+                    <a href="#workouts" class="menu-link">האימונים שלנו</a>
+                    <a href="#skills" class="menu-link">הסמכות ופרויקטים</a>
+                    <a href="#studio" class="menu-link">חלל האימונים</a>
+                    <a href="#nutrition" class="menu-link">ליווי תזונתי</a>
+                    <a href="#schedule" class="menu-link">מערכת שעות</a>
+                    <a href="#contact" class="menu-link">צור קשר</a>
+                </nav>
+            </div>
+
+            <label for="theme-switch" class="theme-switch-label">
+                <span class="icon light-icon">🌙 מצב כהה</span>
+                <span class="icon dark-icon">☀️ מצב בהיר</span>
+            </label>
+        </header>
 
         <main class="card">
             <div class="hero-section">
-                <img src="me.jpeg" alt="סקוואט באימון כוח" class="hero-image">
+                <img src="me.jpeg" alt="יובל הולצמן מבצעת סקוואט באימון כוח" class="hero-image">
                 <div class="hero-overlay"></div>
                 <div class="hero-text">
-                    <h1 class="name">YFitness</h1>
-                    <h2 class="title">בית לאימוני כוח ואימונים פונקציונליים</h2>
+                    <img src="me.jpeg" alt="יובל הולצמן - תמונת פרופיל" class="profile-img">
+                    <h1 class="name">יובל הולצמן</h1>
+                    <p class="title">מאמנת כוח ופונקציונלי | מייסדת YFitness</p>
                 </div>
             </div>
 
-            <section id="why-us" class="feed-item">
-                <h3>האני מאמין שלי - So Why?</h3>
-                <p>
-                    הגוף שלנו נועד לזוז, להרים ולהתחזק. אני מאמינה בכל דבר שיגרום לך להניע את הגוף כדי להרגיש טוב יותר, לזוז טוב יותר ולהיראות טוב יותר.
-                    החיים הם דינמיים ואנחנו צריכים להיות מוכנים לכל דבר שיבוא: להרים קניות במדרגות, הריונות ולידות, גידול ילדים, מטלות הבית וטיולים מסביב לעולם.
-                    וכן - על הדרך משיגים גם גוף חטוב וחזק, אבל זה רק הבונוס.
-                </p>
-            </section>
-            <section id="workouts" class="feed-item">
-                <h3>אימונים ללא פשרות</h3>
-                <p>
-                    אימוני כוח ופונקציונלי המשלבים עבודה על שרירי הליבה, עבודה על קבוצות שרירים ממספר כיוונים שונים כדי ליצור גירוי אידיאלי לשריר, תוך שימת דגש על טכניקה ואיכות הביצועים. בשיעורים שלי נלמד לעבוד נכון, לשבור שיאים אישיים ולדחוף את הגבולות בכל אימון מחדש
-                </p>
-                <div class="css-carousel-wrapper">
-                    <input type="radio" name="slider" id="slide-1" checked class="slider-radio">
-                    <input type="radio" name="slider" id="slide-2" class="slider-radio">
-                    <input type="radio" name="slider" id="slide-3" class="slider-radio">
+            <div class="feed">
+                <section id="about" class="feed-item">
+                    <h2>קצת עליי</h2>
+                    <p>
+                        נעים להכיר, אני יובל, מאמנת כוח ופונקציונלי עם 6 שנות ניסיון.
+                        הגעתי לעולם האימונים כמתאמנת, התאהבתי באימוני הכוח ומשם הדרך להפוך למאמנת הייתה קצרה.
+                        לאורך השנים ליוויתי מאות מתאמנות ומתאמנים בכל הגילאים והרמות - ממי שנכנסים לחדר כושר בפעם הראשונה ועד ספורטאים שרוצים לשבור שיאים.
+                        בשנת 2022 הקמתי את YFitness, סטודיו בוטיק שבו כל מתאמן מקבל יחס אישי, תוכנית מותאמת וליווי צמוד.
+                    </p>
+                </section>
 
-                    <div class="carousel-slides">
-                        <div class="slide">
-                            <img src="workout.jpeg" alt="סקוואט" class="carousel-img">
-                            <label for="slide-2" class="arrow left-arrow">❯</label>
-                        </div>
+                <section id="why-us" class="feed-item">
+                    <h2>האני מאמין שלי - So Why?</h2>
+                    <p>
+                        הגוף שלנו נועד לזוז, להרים ולהתחזק. אני מאמינה בכל דבר שיגרום לך להניע את הגוף כדי להרגיש טוב יותר, לזוז טוב יותר ולהיראות טוב יותר.
+                        החיים הם דינמיים ואנחנו צריכים להיות מוכנים לכל דבר שיבוא: להרים קניות במדרגות, הריונות ולידות, גידול ילדים, מטלות הבית וטיולים מסביב לעולם.
+                        וכן - על הדרך משיגים גם גוף חטוב וחזק, אבל זה רק הבונוס.
+                    </p>
+                </section>
 
-                        <div class="slide">
-                            <img src="bike.jpeg" alt="אימון נוסף 1" class="carousel-img">
-                            <label for="slide-1" class="arrow right-arrow">❮</label>
-                            <label for="slide-3" class="arrow left-arrow">❯</label>
-                        </div>
-                        <div class="slide">
-                            <img src="ohs.jpeg" alt="אימון נוסף 2" class="carousel-img">
-                            <label for="slide-2" class="arrow right-arrow">❮</label>
+                <section id="workouts" class="feed-item">
+                    <h2>אימונים ללא פשרות</h2>
+                    <p>
+                        אימוני כוח ופונקציונלי המשלבים עבודה על שרירי הליבה, עבודה על קבוצות שרירים ממספר כיוונים שונים כדי ליצור גירוי אידיאלי לשריר, תוך שימת דגש על טכניקה ואיכות הביצועים. בשיעורים שלי נלמד לעבוד נכון, לשבור שיאים אישיים ולדחוף את הגבולות בכל אימון מחדש.
+                    </p>
+
+                    <div class="css-carousel-wrapper">
+                        <input type="radio" name="slider" id="slide-1" checked class="slider-radio">
+                        <input type="radio" name="slider" id="slide-2" class="slider-radio">
+                        <input type="radio" name="slider" id="slide-3" class="slider-radio">
+
+                        <div class="carousel-slides">
+                            <div class="slide">
+                                <img src="workout.jpeg" alt="מתאמנת מבצעת סקוואט עם מוט" class="carousel-img">
+                                <label for="slide-2" class="arrow left-arrow" aria-label="לתמונה הבאה">❮</label>
+                            </div>
+
+                            <div class="slide">
+                                <img src="bike.jpeg" alt="אימון על אופני כושר" class="carousel-img">
+                                <label for="slide-1" class="arrow right-arrow" aria-label="לתמונה הקודמת">❯</label>
+                                <label for="slide-3" class="arrow left-arrow" aria-label="לתמונה הבאה">❮</label>
+                            </div>
+
+                            <div class="slide">
+                                <img src="ohs.jpeg" alt="סקוואט עם מוט מעל הראש" class="carousel-img">
+                                <label for="slide-2" class="arrow right-arrow" aria-label="לתמונה הקודמת">❯</label>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <div class="feed">
+                <section id="skills" class="feed-item">
+                    <h2>הסמכות ופרויקטים</h2>
+                    <div class="skills-grid">
+                        <article class="skill-card">
+                            <h3>🎓 מאמנת כושר מוסמכת</h3>
+                            <p>תעודת מאמנת כושר - מכון וינגייט, 2019.</p>
+                        </article>
+                        <article class="skill-card">
+                            <h3>🏋️ אימוני כוח</h3>
+                            <p>הסמכה באימוני כוח ומשקולות אולימפיות.</p>
+                        </article>
+                        <article class="skill-card">
+                            <h3>🤰 חזקה אחרי לידה</h3>
+                            <p>תוכנית של 12 שבועות לחזרה בטוחה ומדורגת לאימונים אחרי לידה.</p>
+                        </article>
+                        <article class="skill-card">
+                            <h3>💻 האתר הזה</h3>
+                            <p>דף נחיתה רספונסיבי שבניתי ב-HTML ו-CSS בלבד, כולל מצב כהה, תפריט וקרוסלה ללא JavaScript.</p>
+                        </article>
+                    </div>
+                </section>
+
                 <section id="studio" class="feed-item">
-                    <h3>סביבת אימון פרימיום</h3>
-                    <p>קליניקת האימונים מציעה מרחב אינטימי, מעוצב ומאובזר ברמה הגבוהה ביותר. עם נוף פתוח ואווירה יוקרתית, זה המקום המושלם להתנתק מרעשי הרקע ולהתרכז נטו בלדחוף את עצמך קדימה.</p>
-                    <img src="thestudio.jpg" alt="סטודיו לאימונים אישיים" class="feed-image">
+                    <h2>סביבת אימון פרימיום</h2>
+                    <p>הסטודיו שלי מציע מרחב אינטימי, מעוצב ומאובזר ברמה הגבוהה ביותר. עם נוף פתוח ואווירה יוקרתית, זה המקום המושלם להתנתק מרעשי הרקע ולהתרכז נטו בלדחוף את עצמך קדימה.</p>
+                    <img src="thestudio.jpg" alt="הסטודיו לאימונים אישיים" class="feed-image">
                 </section>
 
                 <section id="nutrition" class="feed-item">
-                    <h3>תזונה והתאוששות</h3>
-                    <p>שגרת אימונים נכונה דורש דלק איכותי. אוכל הוא לא חלק מהחיים, זה החיים עצמם. כחלק מהמעטפת, אנו מציעים ליווי תזונתי בהתאם לצרכים ולמטרות שלך - כדי לוודא שאנחנו מאפשרים לגוף להתאושש היטב, לבנות מסת שריר ועדיין לשמור על מערכת יחסים בריאה עם אוכל.</p>
+                    <h2>תזונה והתאוששות</h2>
+                    <p>שגרת אימונים נכונה דורשת דלק איכותי. אוכל הוא לא חלק מהחיים, זה החיים עצמם. כחלק מהמעטפת, אני מציעה ליווי תזונתי בהתאם לצרכים ולמטרות שלך - כדי לוודא שהגוף מתאושש היטב, בונה מסת שריר ועדיין שומר על מערכת יחסים בריאה עם אוכל.</p>
                     <img src="Veggie-Bowl.jpeg" alt="קערת ירקות ותזונה בריאה" class="feed-image">
                 </section>
 
                 <section id="schedule" class="feed-item">
-                    <h3>מערכת שעות</h3>
-                    <img src="schedule.jpeg" alt="מגוון אימונים" class="feed-image">
+                    <h2>מערכת שעות</h2>
+                    <img src="schedule.jpeg" alt="מערכת השעות השבועית של אימוני הסטודיו" class="feed-image schedule-image">
                 </section>
             </div>
 
             <hr class="divider">
 
-            <div id="contact" class="contact-info">
-                <a href="mailto:yuval@example.com" class="contact-link">📧 yuval@example.com</a>
-                <a href="tel:050123456" class="contact-link">📱לתיאום אימון ניסיון חינם 050-123456</a>
-                <a href="https://maps.google.com/?q=דיזנגוף+110,+תל+אביב" target="_blank" class="contact-link">📍 דיזינגוף 110, תל אביב</a>
-            </div>
+            <footer id="contact">
+                <div class="contact-info">
+                    <a href="mailto:yuval@example.com" class="contact-link">📧 yuval@example.com</a>
+                    <a href="tel:0501234567" class="contact-link">📱 לתיאום אימון ניסיון חינם: 050-1234567</a>
+                    <a href="https://maps.google.com/?q=דיזנגוף+110,+תל+אביב" target="_blank" rel="noopener" class="contact-link">📍 דיזנגוף 110, תל אביב</a>
+                </div>
 
-            <div class="social-links">
-                <a href="https://github.com/Yovel865" target="_blank" class="btn">GitHub</a>
-                <a href="https://linkedin.com/" target="_blank" class="btn">LinkedIn</a>
-            </div>
+                <div class="social-links">
+                    <a href="https://github.com/Yovel865" target="_blank" rel="noopener" class="btn">GitHub</a>
+                    <a href="https://www.linkedin.com/in/yuval-holtzman" target="_blank" rel="noopener" class="btn">LinkedIn</a>
+                </div>
+            </footer>
         </main>
     </div>
 </body>
