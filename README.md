@@ -14,7 +14,9 @@ A personal landing page for Yuval Holtzman, a strength and functional fitness co
 - Responsive layout for mobile and desktop
 
 ## Project Structure
+````
 ├── index.html
 ├── css/
 │   └── style.css
 └── images/
+````
