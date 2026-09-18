@@ -1,16 +1,20 @@
-# YFitness - כרטיס ביקור דיגיטלי
+# YFitness - Digital Business Card
 
-אתר אישי ליובל הולצמן, מאמנת כוח ופונקציונלי.
+A personal landing page for Yuval Holtzman, a strength and functional fitness coach.
 
-🔗 **האתר החי:** https://yovel865.github.io/fitness-landing-page/
+🔗 **Live site:** https://yovel865.github.io/fitness-landing-page/
 
-## טכנולוגיות
-- HTML5 סמנטי
-- CSS3 בלבד, ללא JavaScript
+## Tech Stack
+- HTML
+- CSS
 
-## פיצ'רים
-- מצב כהה/בהיר (checkbox hack)
-- תפריט המבורגר ב-CSS טהור
-- קרוסלת תמונות ב-CSS טהור (radio buttons)
-- עיצוב רספונסיבי למובייל ולמחשב
-- תמיכה מלאה ב-RTL
+## Features
+- Dark / light mode toggle
+- CSS hamburger menu & image carousel
+- Responsive layout for mobile and desktop
+
+## Project Structure
+├── index.html
+├── css/
+│   └── style.css
+└── images/
